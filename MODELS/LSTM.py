@@ -167,3 +167,5 @@ for i, (res, config, pred, actual) in enumerate(sorted_combined, start=1):
     plt.tight_layout()
     plt.savefig(f"Plots/{index_name}/forecast/forecast_model_{i}_LSTM_{filename_suffix}.png")  
     plt.close()
+
+
